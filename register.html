@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Akun - Nama UMKM Anda</title>
+    <link rel="stylesheet" href="css/register.css"> 
+</head>
+<body>
+    
+    <header class="main-header fixed-header">
+        <div class="logo">
+            <h1>Nama UMKM Anda</h1>
+        </div>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="product.html">Produk</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="register.html" class="active nav-button">Daftar</a></li>
+                <li><a href="login.html">Masuk</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="auth-section">
+            
+            <div class="register-container">
+                <h2>Daftar Akun Baru</h2>
+                <p>Bergabunglah dengan komunitas kami dan nikmati penawaran eksklusif!</p>
+            
+                <form action="#" method="POST" class="register-form">
+                    
+                    <div class="form-group">
+                        <label for="fullname">Nama Lengkap:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Nomor Telepon:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Buat Kata Sandi:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirm-password">Konfirmasi Kata Sandi:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+
+                    <button type="submit" class="submit-button secondary-button">DAFTAR SEKARANG</button>
+                </form>
+
+                <div class="help-links">
+                    <ul class="info-list">
+                        <li>Sudah punya akun? <a href="login.html">Masuk di sini</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Nama UMKM Anda. Dibuat dengan HTML dan CSS.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

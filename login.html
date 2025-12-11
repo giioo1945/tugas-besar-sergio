@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Pengguna - Nama UMKM Anda</title>
+    <link rel="stylesheet" href="css/login.css"> 
+</head>
+<body>
+    
+    <header class="main-header fixed-header">
+        <div class="logo">
+            <h1>Nama UMKM Anda</h1>
+        </div>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="product.html">Produk</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="register.html">Daftar</a></li>
+                <li><a href="login.html" class="active nav-button">Masuk</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="auth-section">
+            
+            <div class="login-container">
+                <h2>Masuk ke Akun Anda</h2>
+                <p>Silakan masukkan detail akun Anda untuk melanjutkan.</p>
+            
+                <form action="#" method="POST" class="login-form">
+                    
+                    <div class="form-group">
+                        <label for="username">Email atau Nama Pengguna:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Kata Sandi:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <button type="submit" class="primary-button">MASUK</button>
+                </form>
+
+                <div class="help-links">
+                    <ul class="info-list">
+                        <li><a href="#">Lupa Kata Sandi?</a></li>
+                        <li>Belum punya akun? <a href="register.html">Daftar di sini</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Nama UMKM Anda. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

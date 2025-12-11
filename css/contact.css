@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #F9F8F6;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.main-header {
+    background: #C9B59C;
+    color: white;
+    padding: 10px 40px;
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.contact-section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #F9F8F6;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 25px;
+}
+
+.contact-info {
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.info-list li {
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    background: #C9B59C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+    .main-header {
+        padding: 10px 20px;
+    }
+
+    .main-nav ul {
+        gap: 10px;
+    }
+
+   .card-container {
+       flex-direction: column;
+    }
+
+@media (max-width: 600px) {
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    
+    .main-nav li {
+        margin: 5px;
+    }
+
+    .product-list {
+        grid-template-columns: 1fr;
+    }
+
